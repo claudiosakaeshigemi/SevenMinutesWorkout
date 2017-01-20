@@ -18,6 +18,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TelaExercicios"
+            android:label="@string/title_activity_tela_exercicios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaVideos"
+            android:label="@string/title_activity_tela_videos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaTreinoRun"
+            android:label="@string/title_activity_tela_treino_run"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

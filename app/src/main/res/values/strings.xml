@@ -3,7 +3,6 @@
     <string name="action_settings">Settings</string>
 
 
-
     <string-array name="inicial_treinos">
         <item>A</item>
         <item>B</item>
@@ -29,6 +28,10 @@
         <item>Barras</item>
         <item>Capoeira</item>
     </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_tela_exercicios">TelaExercicios</string>
+    <string name="title_activity_tela_videos">TelaVideos</string>
+    <string name="title_activity_tela_treino_run">TelaTreinoRun</string>
 
 
 </resources>
