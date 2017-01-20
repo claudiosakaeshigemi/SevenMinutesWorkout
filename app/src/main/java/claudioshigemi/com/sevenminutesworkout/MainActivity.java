@@ -19,16 +19,16 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        ttsobject = new TextToSpeech(MainActivity.this, new TextToSpeech.OnInitListener(){
-//            @Override
-//            public void onInit(int status) {
-//                if(status == TextToSpeech.SUCCESS){
-//                    ttsobject.speak("Select your Trainning!", TextToSpeech.QUEUE_FLUSH, null);
-//                }else{
-//                    Toast.makeText(getApplicationContext(), "Nao suporta VoiceToSpeech!", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//        });
+        ttsobject = new TextToSpeech(MainActivity.this, new TextToSpeech.OnInitListener(){
+            @Override
+            public void onInit(int status) {
+                if(status == TextToSpeech.SUCCESS){
+                    ttsobject.speak("Select your Trainning!", TextToSpeech.QUEUE_FLUSH, null);
+                }else{
+                    Toast.makeText(getApplicationContext(), "Nao suporta VoiceToSpeech!", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
         final ListView listView;
 
